@@ -1,3 +1,5 @@
+'use strict';
+
 class TvShowService {
   constructor() {
     this.tvShows = [];

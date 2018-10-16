@@ -1,8 +1,11 @@
+'use strict';
+
 const express = require('express');
-const TvShow = require('./TvShow');
+//const TvShow = require('./TvShow');
 const TvShowService = require('./TvShowService');
+//
 const tvShowRouter = express.Router();
-const tvShowsService = [new TvShow(1, 'Mr.Robot', 'Drama'), new TvShow(2, 'Black Mirror', 'Drama')];
+
 
 //GET http://localhost:3000/tvshow/
 tvShowRouter.get('/', (req, res) => {
