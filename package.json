@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/emiliabvdb/mjsREST/issues"
   },
-  "homepage": "https://github.com/emiliabvdb/mjsREST#readme"
+  "homepage": "https://github.com/emiliabvdb/mjsREST#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
