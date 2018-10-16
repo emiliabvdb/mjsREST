@@ -1,0 +1,22 @@
+{
+  "name": "mjsrest",
+  "version": "1.0.0",
+  "description": "Modern Javascript and REST",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliabvdb/mjsREST.git"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Emilia Botnen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiliabvdb/mjsREST/issues"
+  },
+  "homepage": "https://github.com/emiliabvdb/mjsREST#readme"
+}
