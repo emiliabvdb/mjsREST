@@ -10,7 +10,7 @@ tvShowRouter.get('/', (req, res) => {
       {},
       tvShow,
       {
-        reviews: `http://localhost:3000/tvShow/${tvShow.id}/review`
+        //reviews: `http://localhost:3000/tvShow/${tvShow.id}/review`
       }
     )
   );
@@ -32,7 +32,7 @@ tvShowRouter.post('/', (req, res) => {
       {},
       tvShow,
       {
-        reviews: `http://localhost:3000/tvShow/${tvShow.id}/review`
+        //reviews: `http://localhost:3000/tvShow/${tvShow.id}/review`
       }
     ));
   })
@@ -49,10 +49,10 @@ tvShowRouter.post('/', (req, res) => {
     const deletedTvShow = tvShowService.remove(tvShowId);
     res.send(deletedTvShow);
   });
- tvShowRouter.route('/:tvShowId/review')
+ /*tvShowRouter.route('/:tvShowId/review')
   .get((req, res) => {
     const relatedItemId = req.params.tvShowId;
     const tvShowReviews = reviewService.getAllForRelatedItem(relatedItemId);
     res.send(tvShowReviews);
   });
- module.exports = tvShowRouter;
+ module.exports = tvShowRouter;*/
